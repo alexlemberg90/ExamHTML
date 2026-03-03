@@ -7,14 +7,12 @@ body {
 .liteBlueBox {
     width: 100vw;
     background: #EFF0F3;
-    display: flex;
-    justify-content: center;
 }
 
 header {
+    margin: auto;
     width: 1250px;
     background: #EFF0F3;
-
 }
 
 nav {
@@ -168,4 +166,69 @@ nav ul>li:nth-child(5) {
 .cards div:nth-child(3){
     background:#6246EA;
 }
+main{
+    margin:80px auto;
+    width: 1250px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.articleNavigate{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.articleNavigate p:first-child{
+    color:#2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.articleNavigate p:nth-child(2){
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.cardsBlock{
+    display: flex;
+}
+.articleCard{
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.articleCard img:first-child{
+    width: 260px;
+    height: 198px;
+}
+.articleCard h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.cardFooter{
+    display: flex;
+}
+.articleCard .cardFooter img{
+    width: auto;
+    height: auto;
+}
+.cardText h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.cardText p{
+    color:#2B2C34;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+
+
 
