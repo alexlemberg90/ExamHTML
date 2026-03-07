@@ -3,6 +3,10 @@
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
+.w-th1250{
+    margin: auto;
+    width: 1250px;
+}
 
 .liteBlueBox {
     width: 100vw;
@@ -10,22 +14,23 @@ body {
 }
 
 header {
-    margin: auto;
-    width: 1250px;
     background: #EFF0F3;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
-    height: 86px;
+    left: 0;
+    width: 100%;
     background: #EFF0F3;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
-
+.navigateBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86px;
+}
 .logo h3 {
     color: #001858;
     font-size: 36px;;
@@ -64,7 +69,7 @@ nav ul > li:nth-child(5) {
 }
 
 .aboutMe {
-    margin-top: 270px;
+    padding-top: 270px;
     display: flex;
     justify-content: space-between;
 }
@@ -323,11 +328,9 @@ main button {
 }
 .footerInfo{
     padding: 70px 0 50px 0;
-    margin:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1250px;
     background:#E4E5E9;
     border-bottom: 1px solid #C0C0C0;
 }
@@ -371,6 +374,9 @@ main button {
     font-size: 14px;
     font-weight: 400;
     padding: 28px;
+}
+.grayBox p{
+
 }
 
 
